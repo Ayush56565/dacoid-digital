@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply antialiased text-gray-800;
+}
+
+button:focus {
+  @apply outline-none ring-2 ring-blue-500 ring-offset-2;
+}
